@@ -61,9 +61,8 @@ This repository provides the theoretical foundation for this analysis.
 
 ## Repository Contents
 
-*   **`/B-Space-Cosmology.pdf`**: The complete scientific paper, "B-Space Cosmology: A Unified Alternative to the Standard Cosmological Model," including all appendices and references. This is the primary document.
-*   **`/code`**: This directory will host the analysis code. The full analysis code for the Primordial Vorticity Field (PVF) work is available at:
-    *   [github.com/Firas-Shrourou/B-Space-Cosmology/PVF](https://github.com/Firas-Shrourou/B-Space-Cosmology/PVF)
+*   **[`/paper/B-Space-Cosmology.pdf`](./paper/B-Space-Cosmology.pdf)**: The complete scientific paper. This is the primary document.
+*   **[`/code/Primordial_Vorticity_Field_Model.py`](./code/Primordial_Vorticity_Field_Model.py)**: The Python script used for the statistical analysis of the Primordial Vorticity Field (PVF) model against JWST data, as detailed in Appendix D.
 
 ## Licensing
 This project is licensed to encourage open scientific collaboration.
