@@ -30,7 +30,11 @@ B-Space replaces the abstract concepts of dark matter and dark energy with physi
 For the post-recombination universe (z ≤ 1100), this leads to a definitive **Master Equation of Expansion**:
 
 <p align="center">
-  <img src="https://latex.codecogs.com/svg.latex?\frac{\ddot{a}}{a}=-\frac{4\pi&space;G}{3}\rho_{m}+\frac{8\pi&space;G}{3}\rho_{\text{ext}}-(\Gamma_{0}a^{3})H" title="\frac{\ddot{a}}{a}=-\frac{4\pi G}{3}\rho_{m}+\frac{8\pi G}{3}\rho_{\text{ext}}-(\Gamma_{0}a^{3})H" />
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://latex.codecogs.com/svg.latex?\color{white}\frac{\ddot{a}}{a}=-\frac{4\pi&space;G}{3}\rho_{m}+\frac{8\pi&space;G}{3}\rho_{\text{ext}}-(\Gamma_{0}a^{3})H">
+    <source media="(prefers-color-scheme: light)" srcset="https://latex.codecogs.com/svg.latex?\color{black}\frac{\ddot{a}}{a}=-\frac{4\pi&space;G}{3}\rho_{m}+\frac{8\pi&space;G}{3}\rho_{\text{ext}}-(\Gamma_{0}a^{3})H">
+    <img src="https://latex.codecogs.com/svg.latex?\color{black}\frac{\ddot{a}}{a}=-\frac{4\pi&space;G}{3}\rho_{m}+\frac{8\pi&space;G}{3}\rho_{\text{ext}}-(\Gamma_{0}a^{3})H">
+  </picture>
 </p>
 
 Here, expansion is driven by a constant pressure (`ρ_ext`) and resisted by gravity and a growing volumetric **drag** (`Γ₀a³H`). This drag term is the key to the model's dynamics.
