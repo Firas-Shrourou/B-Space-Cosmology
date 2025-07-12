@@ -1,0 +1,86 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% B-Space Cosmology: Mathematical Formulation for Post-Recombination Expansion
+% This version uses the BSpacePaper.cls class for all formatting.
+% Author: Firas Shrourou
+% Date: July 2025
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\documentclass{BSpacePaper} % Use our master class file
+
+% --- METADATA FOR THIS SPECIFIC PAPER ---
+\papertitle{B-Space Cosmology: Mathematical Formulation for Post-Recombination Expansion}
+\paperauthor{Firas Shrourou \\ \href{https://github.com/Firas-Shrourou/B-Space-Cosmology}{github.com/Firas-Shrourou/B-Space-Cosmology}}
+\papersubject{The definitive mathematical derivation of the expansion dynamics in B-Space Cosmology for the post-recombination era (z <= 1100), incorporating a volumetric drag mechanism that resolves the Hubble Tension and makes a future 'Big Stall' a mathematical inevitability.}
+\paperkeywords{Cosmology, B-Space, Mathematical Formulation, Post-Recombination, Dark Energy, Hubble Tension, Drag, Lambda-CDM}
+
+\begin{document}
+
+\makeBSCSsupplementtitle
+
+\begin{abstract}
+\noindent
+This paper presents the definitive mathematical foundation for B-Space Cosmology, focusing on the post-recombination era ($z \lesssim 1100$). We derive the Master Equation of cosmic expansion from first principles, positing that the observable universe (the "Drip") is a finite system whose expansion is governed by its mechanical interaction with a static background medium. We demonstrate that this evolution is determined by three primary forces: self-gravity, a constant background pressure, and a dissipative volumetric drag. The key feature of this model is a drag force that grows with the size of the universe, providing a physical mechanism that both resolves the Hubble Tension and makes a future deceleration phase, culminating in a "Big Stall," a mathematical inevitability.
+\end{abstract}
+
+\section{Domain of Applicability: The Post-Recombination Universe}
+The B-Space Master Equation derived herein describes the dynamics of the universe \textbf{after recombination, for redshifts $z \lesssim 1100$}. This epoch marks the critical transition where the universe changed from a hot, opaque, ionized plasma—where matter and radiation were tightly coupled—to a cool, transparent medium composed of neutral atoms and gas.
+
+It is at this transition that the mechanical forces of the B-Space background (pressure and drag) become the dominant drivers of cosmic evolution, replacing the radiation-dominated physics of the earlier era. The standard Big Bang model, including inflation and reheating, is assumed to set the initial conditions for the Drip at this point.
+
+\section{The Three Governing Forces}
+For $z \lesssim 1100$, the expansion of the Drip is governed by the interplay of three forces.
+
+\subsection{Self-Gravity}
+The standard inward gravitational pull of the Drip's own baryonic matter. Its acceleration is given by:
+\begin{equation}
+    \ddot{R}_{\text{gravity}} = -\frac{GM}{R^2}
+\end{equation}
+
+\subsection{Boundary Pressure}
+A constant outward force from the background pressure ($P_B$) of the B-Space medium. Assuming the Drip's internal pressure is negligible post-recombination, this is given by:
+\begin{equation}
+    \ddot{R}_{\text{pressure}} = \frac{3P_B}{\rho_m R}
+\end{equation}
+
+\subsection{Volumetric Drag}
+A dissipative drag force arising from the "particle-to-container" friction between the Drip's matter and the pervasive B-Space fabric. As a volumetric effect, the total drag is proportional to the total mass $M$ being dragged. The drag coefficient grows with the scale factor cubed, $\Gamma_{\text{eff}}(a) = \Gamma_0 a^3$, leading to an acceleration term:
+\begin{equation}
+    \ddot{R}_{\text{drag}} = -(\Gamma_0 a^3)\dot{R}
+\end{equation}
+This "Expanding Parachute" mechanism is negligible at high redshift but becomes dominant at late times.
+
+\section{The Master Equation of Post-Recombination Expansion}
+The net acceleration is the sum of these three forces. In dimensionless form, using the scale factor $a(t)$, the Hubble parameter $H = \dot{a}/a$, and defining a constant pressure-equivalent density $\rho_{\text{ext}}$, the equation is:
+\begin{equation} \label{eq:master}
+\boxed{
+\frac{\ddot{a}}{a} = 
+\underbrace{-\frac{4\pi G}{3} \rho_{m,0} a^{-3}}_{\text{Gravity}} 
++ \underbrace{\frac{8\pi G}{3} \rho_{\text{ext}}}_{\text{Pressure}} 
+- \underbrace{(\Gamma_{0} a^3) H}_{\text{Volumetric Drag}}
+}
+\end{equation}
+This is the definitive Master Equation for the B-Space model in the post-recombination universe.
+
+\section{Inevitable Consequences of the Dynamics}
+This equation's form—with a constant engine (Pressure) and a growing brake (Drag)—mathematically guarantees a specific three-phase expansion history.
+
+\begin{enumerate}
+    \item \textbf{Phase 1 (Deceleration):} At early times ($1 < z \lesssim 1100$), the Gravity term ($\propto a^{-3}$) dominates, causing deceleration.
+    \item \textbf{Phase 2 (Acceleration):} As gravity fades ($z \lesssim 1$), the constant Pressure term dominates over the still-moderate Drag term, causing the accelerated expansion we observe today.
+    \item \textbf{Phase 3 (Future Deceleration):} As expansion continues, the Drag term ($\propto a^3$) grows relentlessly. It is mathematically inevitable that it will eventually overtake the constant Pressure term, forcing the net acceleration $\ddot{a}$ to become negative again.
+\end{enumerate}
+
+This future deceleration does not lead to a collapse. The resistive nature of the drag force creates a fail-safe mechanism, ensuring the universe settles into a stable, static "Big Stall" where $H=0$.
+
+\section{A Data-Driven, Not Fine-Tuned, Model}
+The model's key parameters are measured by observation:
+\begin{itemize}
+    \item \textbf{Pressure ($\rho_{\text{ext}}$):} Constrained by the observed cosmic acceleration rate from Type Ia Supernova surveys.
+    \item \textbf{Drag ($\Gamma_0$):} Constrained by the magnitude of the Hubble Tension.
+\end{itemize}
+The model's predictions are therefore a direct consequence of data, not of fine-tuning.
+
+\section{Conclusion}
+We have presented a rigorous mathematical foundation for the post-recombination evolution of the universe in B-Space Cosmology. The introduction of a single physical principle—a growing volumetric drag force—is sufficient to construct a model that is consistent with early-universe physics while resolving the Hubble Tension. We have proven that this same mechanism makes a future deceleration and an eventual "Big Stall" a mathematical inevitability. The next crucial step is a full MCMC analysis by the scientific community to precisely determine the model's parameters and the exact timeline of the universe's future.
+
+\end{document}
